@@ -2,7 +2,8 @@
 import Link from 'next/link';
 import NavLink from './NavLink';
 import React, { useState } from 'react';
-import {Bars3Icon, XMarkIcon, XmarkIcon} from '@heroicons/react/24/solid'
+import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid';
+import MenuOverlay from './MenuOverlay';
 
 const navLinks = [
     {
@@ -24,20 +25,25 @@ const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
 
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
         <div className='flex flex-wrap justify-between items-center mx-auto p-6'>
             <Link href={'/'} className='text-2xl md:text-5xl text-white font-semibold'>Austin Rado</Link>
             <div className='mobile-menu block md:hidden'>
                 {
-                    navBarOpen ? (
-                        <button className='flex items-center px-3 py-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                    !navBarOpen ? (
+                        <button 
+                        onClick={()=>setNavBarOpen(true)}
+                        className='flex items-center px-3 py-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
                             <Bars3Icon
                             className='h-5 w-5'
                             />
                         </button>
                     ) : (
-                        <button lassName='flex items-center px-3 py-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
-                            <XMarkIcon/>
+                        <button
+                        onClick={()=>setNavBarOpen(false)}
+                        className='flex items-center px-3 py-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                            <XMarkIcon
+                            className='h-5 w-5'/>
                         </button>
                     )
                 }
@@ -53,6 +59,7 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
+        {navBarOpen ? <MenuOverlay links={navLinks}/> : null}
     </nav>
   )
 }

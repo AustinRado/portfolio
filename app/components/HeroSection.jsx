@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 const HeroSection = () => {
   return (
     <section> 
-      <div className='flex justify-center'>
+      <div className='flex justify-center mt-9 pt-[40px]'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Hello, I am {''}</span>

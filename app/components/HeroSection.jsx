@@ -13,7 +13,7 @@ const HeroSection = () => {
               <br/>
             </h1>
             <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-              I am a <span>full stack developer</span> with 3 years of experience. I enjoy building applications, sites and good relationships. My focus is React(Next.js), NodeJs, AWS and Python (Flusk, Django). I am always open to new experiences as well as opportunities and collaboration.
+              I am a <span>full stack developer</span> with 3 years of experience. I enjoy problem-solving, building applications and websites. My focus is React(Next.js), NodeJs, AWS and Python (Flusk, Django). I am always open to new experiences and opportunities.
             </p>
             <div>
                 <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Contact me</button>

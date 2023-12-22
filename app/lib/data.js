@@ -10,6 +10,7 @@ export const skillsData = [
     "Tailwind",
     "Prisma",
     "MongoDB",
+    "Firebase",
     "Redux",
     "GraphQL",
     "Apollo",
@@ -19,6 +20,9 @@ export const skillsData = [
     "Django",
     "Flusk",
     "Bash",
+    "Docker",
+    "Puppet",
+    "Postman",
     "AWS",
     "Framer Motion",
   ]

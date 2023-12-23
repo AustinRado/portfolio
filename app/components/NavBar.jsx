@@ -33,7 +33,7 @@ const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
 
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-opacity-100'>
         <div className='flex justify-center items-center mx-auto p-6'>   
             <div className='mobile-menu block md:hidden'>
                 {

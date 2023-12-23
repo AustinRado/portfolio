@@ -4,14 +4,16 @@ import './globals.css'
 const roboto = Roboto_Mono({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Austin Rado',
-  description: 'server',
+  title: 'Personal Portfolio',
+  description: 'I am a fullstack software engineer',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={`${roboto.className} bg-white text-gray-950`}>
+      {children}        
+      </body>
     </html>
   )
 }

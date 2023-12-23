@@ -27,11 +27,11 @@ const HeroSection = () => {
     <section> 
       <div className='flex justify-center mt-9 pt-[40px]'>
         <div className='col-span-7 place-self-center sm:text-left'>
-            <h1 className="text-white mb-4 text-2xl sm:text-5xl lg:text-4xl font-extrabold text-center">
+            <h1 className="mb-4 text-2xl sm:text-5xl lg:text-4xl font-extrabold text-center">
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Welcome, My name is Austin Rado</span>
               <br/>
             </h1>
-            <p className='text-white text-base sm:text-lg mb-6 lg:text-xl text-center'>
+            <p className='text-base sm:text-lg mb-6 lg:text-xl text-center'>
               I am a <span>full stack developer</span> with 3 years of experience. I enjoy problem-solving, building applications and websites. My focus is React(Next.js), NodeJs, APIs, AWS and Python (Flusk, Django). I am always open to new experiences.
             </p>
             <div className='text-center flex flex-row flex-wrap items-baseline justify-center gap-3'>

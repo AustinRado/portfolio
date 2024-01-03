@@ -1,27 +1,10 @@
 "use client"
 
 import React from 'react'
-import { socialLinks } from '../lib/data';
 import Link from "next/link";
-import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai';
-import { RiLinkedinFill } from 'react-icons/ri';
+import { socialLinks } from "../lib/data";
 
 const HeroSection = () => {
-
-  const socialLinks = [
-    {
-      path: "https://github.com/AustinRado/",
-      display:<AiFillGithub className='group-hover:text-white w-7 h-7'/>,
-    },
-    {
-      path: "https://twitter.com/omburo_",
-      display: <AiFillTwitterCircle className='group-hover:text-white w-7 h-7' />,
-    },
-    {
-      path: "https://www.linkedin.com/in/austin-omburo-527919268/",
-      display: <RiLinkedinFill className='group-hover:text-white w-7 h-7' />,
-    },
-  ]
 
   return (
     <section> 
@@ -36,9 +19,11 @@ const HeroSection = () => {
             </p>
             <div className='text-center flex flex-row flex-wrap items-baseline justify-center gap-3'>
                 <div>
-                  <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Contact me</button>
-                  <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                    <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Resume</span>
+                  <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black'>
+                  <span className='block bg-slate-200 hover:bg-slate-500 rounded-full px-5 py-2'>Contact Me</span>
+                  </button>
+                  <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black mt-3'>
+                    <span className='block bg-slate-200 hover:bg-slate-500 rounded-full px-5 py-2'>Resume</span>
                   </button>
                 </div>
                 <div className='flex items-center gap-3 mt-4'>

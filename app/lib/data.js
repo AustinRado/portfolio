@@ -1,7 +1,6 @@
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai';
 import { RiLinkedinFill } from 'react-icons/ri';
 
-
 export const skillsData = [
     "TypeScript",
     "React",

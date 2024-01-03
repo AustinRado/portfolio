@@ -20,10 +20,10 @@ const HeroSection = () => {
             <div className='text-center flex flex-row flex-wrap items-baseline justify-center gap-3'>
                 <div>
                   <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black'>
-                  <span className='block bg-slate-200 hover:bg-slate-500 rounded-full px-4 py-2'>Contact Me</span>
+                  <span className='block bg-slate-200 rounded-full px-4 py-2'>Contact Me</span>
                   </button>
                   <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black'>
-                    <span className='block bg-slate-200 hover:bg-slate-500 rounded-full px-4 py-2'>Resume</span>
+                    <span className='block bg-slate-200 rounded-full px-4 py-2'>Resume</span>
                   </button>
                 </div>
                 <div className='flex items-center justify-center  gap-3 translate-y-2 '>

@@ -14,7 +14,7 @@ const HeroSection = () => {
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Hello, My name is Austin Rado</span>
               <br/>
             </h1>
-            <p className='text-base sm:text-lg mb-6 lg:text-xl text-center'>
+            <p className='text-sm sm:text-lg mb-6 lg:text-xl text-center'>
               I am a <span>full stack developer</span> with 3 years of experience. I enjoy problem-solving, building applications and websites. My focus is React(Next.js) framework, NodeJs, APIs, AWS and Python (Flask, Django). I am always open to collaborations.
             </p>
             <div className='text-center flex flex-row flex-wrap items-baseline justify-center gap-3'>

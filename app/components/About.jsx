@@ -6,7 +6,7 @@ const About = () => {
    <div className='mt-[25px]'>
     <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-2xl text-[#030303] mb-4 text-center">About me</h2>
-        <p className="text-base text-center lg:text-lg">
+        <p className="text-sm text-center lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,

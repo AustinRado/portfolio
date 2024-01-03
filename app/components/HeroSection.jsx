@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className='flex justify-center mt-9 pt-[40px]'>
         <div className='col-span-7 place-self-center sm:text-left'>
             <h1 className="mb-4 text-2xl sm:text-5xl lg:text-4xl font-extrabold text-center">
-              <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Welcome, My name is Austin Rado</span>
+              <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Hello, My name is Austin Rado</span>
               <br/>
             </h1>
             <p className='text-base sm:text-lg mb-6 lg:text-xl text-center'>
@@ -26,7 +26,7 @@ const HeroSection = () => {
                     <span className='block bg-slate-200 hover:bg-slate-500 rounded-full px-5 py-2'>Resume</span>
                   </button>
                 </div>
-                <div className='flex items-center gap-3 mt-4'>
+                <div className='flex items-center gap-3 leading-3'>
                   {socialLinks.map((link, index)=><Link href={`${link.path}`} key={index}>{link.display}</Link>)}
                 </div>
             </div>

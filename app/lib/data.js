@@ -38,3 +38,27 @@ export const skillsData = [
       display: <RiLinkedinFill className='group-hover:text-white w-7 h-7' />,
     },
   ]
+
+  export const projects = [
+    {
+      name:"",
+      description:"",
+      image:"",
+      github:"",
+      link:"",
+    },
+    {
+      name:"",
+      description:"",
+      image:"",
+      github:"",
+      link:"",
+    },
+    {
+      name:"",
+      description:"",
+      image:"",
+      github:"",
+      link:"",
+    },
+  ]

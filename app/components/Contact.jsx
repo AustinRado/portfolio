@@ -26,7 +26,9 @@ const Contact = () => {
     };
   return (
     <section>
-        <h1 className="text-2xl text-[#030303] mt-[30px] text-center relative">Contact</h1>
+        <h1 className="text-2xl text-[#030303] mt-[30px] text-center relative">Contact
+          <hr className='w-8 h-1 mx-auto my-4 bg-teal-500 border-0 rounded'></hr>
+        </h1>
         <div className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative">
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
         <div className="z-10">

@@ -41,17 +41,17 @@ export const skillsData = [
 
   export const projects = [
     {
-      name:"",
-      description:"",
+      name:"Medicare",
+      description:"Medical booking application",
       image:"",
-      github:"",
+      github:"https://github.com/AustinRado/medicare",
       link:"",
     },
     {
-      name:"",
-      description:"",
+      name:"Portfolio",
+      description:"Personal portfolio website",
       image:"",
-      github:"",
+      github:"https://github.com/AustinRado/portfolio",
       link:"",
     },
     {

@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <section>
         <div className='mt-[25px] pt-6'>
-        <h1 className='text-2xl text-[#030303] mb-4 text-center' >Skills</h1>
+        <h1 className='text-2xl text-[#030303] mb-4 text-center' >Skills
+        <hr className='w-8 h-1 mx-auto my-4 bg-teal-500 border-0 rounded'></hr>  
+        </h1>
             <ul className="flex flex-wrap justify-center gap-2 text-sm text-gray-800">
             {skillsData.map((skill, index) => (
             <li

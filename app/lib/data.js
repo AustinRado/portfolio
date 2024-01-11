@@ -27,15 +27,15 @@ export const skillsData = [
   export const socialLinks = [
     {
       path: "https://github.com/AustinRado/",
-      display:<AiFillGithub className='group-hover:text-white w-7 h-7'/>,
+      display:<AiFillGithub className='hover:-translate-y-1 transition-transform w-7 h-7'/>,
     },
     {
       path: "https://twitter.com/omburo_",
-      display: <AiFillTwitterCircle className='group-hover:text-white w-7 h-7' />,
+      display: <AiFillTwitterCircle className='hover:-translate-y-1 transition-transform w-7 h-7' />,
     },
     {
       path: "https://www.linkedin.com/in/austin-omburo-527919268/",
-      display: <RiLinkedinFill className='group-hover:text-white w-7 h-7' />,
+      display: <RiLinkedinFill className='hover:-translate-y-1 transition-transform w-7 h-7' />,
     },
   ]
 

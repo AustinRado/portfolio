@@ -14,9 +14,20 @@ const Projects = () => {
                 <div key={idx}>
                     <div className='flex flex-col md:flex-row md:space-x-12'>
                         <div className='md:w-1/2'>
-                            <Image/>
+                            <Image
+                            src={projects.image}
+                            alt=''
+                            width={1000}
+                            height={1000}
+                            className='rounded-xl shadow-xl hover:opacity-70'
+                            />
                         </div>
-                        <div></div>
+                        <div>
+                            <div className='mt-8 md:w-1/2'>
+                                <h1 className='text-4xl font-bold mb-6'>{projects.name}</h1>
+                                <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>{projects.description}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>) })}
     </div>

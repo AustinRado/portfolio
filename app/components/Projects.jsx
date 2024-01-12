@@ -16,7 +16,7 @@ const projects = [
       name:"Portfolio",
       description:"Personal portfolio website",
       image:"/portfolio.png",
-      tags: ["React", "Next.js", "Tailwind", "Framer"],
+      tags: ["Next.js", "Tailwind", "Framer"],
       github:"https://github.com/AustinRado/portfolio",
       link:"",
     },

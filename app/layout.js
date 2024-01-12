@@ -1,7 +1,11 @@
 import { Roboto_Mono} from 'next/font/google'
 import './globals.css'
 
-const roboto = Roboto_Mono({ subsets: ['latin'] })
+const roboto = Roboto_Mono({ 
+  display: 'swap',
+  subsets: ['latin'],
+  weight: '400',
+});
 
 export const metadata = {
   title: 'Personal Portfolio',

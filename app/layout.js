@@ -10,7 +10,7 @@ const roboto = Roboto_Mono({
 export const metadata = {
   title: 'Personal Portfolio',
   description: 'I am a fullstack software engineer',
-}
+};
 
 export default function RootLayout({ children }) {
   return (

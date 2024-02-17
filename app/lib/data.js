@@ -3,25 +3,20 @@ import { RiLinkedinFill } from 'react-icons/ri';
 
 export const skillsData = [
     "TypeScript",
-    "React",
-    "Next.js",
-    "Node",
     "Express",
     "Git",
-    "Database",
+    "Bash",
     "Redux",
     "MySQL",
     "MongoDB",
-    "Python",
-    "Django",
-    "Flask",
+    "PostgreSQL",
     "Docker",
-    "Linux",
     "Postman",
-    "AWS",
     "Tailwind",
+    "Material UI",
+    "Bootstrap",
     "Framer Motion",
-  ]
+  ];
 
   export const socialLinks = [
     {

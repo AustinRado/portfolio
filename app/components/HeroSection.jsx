@@ -15,7 +15,7 @@ const HeroSection = () => {
               <br/>
             </h1>
             <p className='text-xs sm:text-sm mb-6 lg:text-xl text-center'>
-              I am a <span className='font-bold'>full stack developer</span> with a passion for problem-solving and building responsive websites. I have experience in React(Next.js), Flask and Django frameworks, NodeJs, APIs and AWS. I am always open to collaborations and teamwork.
+              I am a <span className='font-bold'>full stack developer</span> with a passion for problem-solving and building responsive websites. I have experience in Linux, React(Next.js), Flask and Django frameworks, NodeJs, APIs and AWS. I am always open to collaborations and teamwork.
             </p>
             <div className='text-center sm:flex sm:justify-center sm:items-baseline gap-3'>
                 <div>
